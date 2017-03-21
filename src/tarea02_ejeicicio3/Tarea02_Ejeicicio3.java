@@ -28,6 +28,8 @@ public class Tarea02_Ejeicicio3 {
         
         double totalFactura = 19359.678;
         long poblacionMundial = 677523574;
+        long miliseg = 1293328000;
+        
         
         
         
