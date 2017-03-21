@@ -15,24 +15,31 @@ public class Tarea02_Ejeicicio3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+
         boolean estaCasado = true;
         final int MAXIMO = 999999;
-        
-        String diaSemana = "";
-        String diaAnio = "";
-        
-        char [] sexo = new char [1];
-        sexo[0] = 'V';
-        sexo[1] = 'M';
-        
+
+        int diaSemana = 1;
+        int diaAnio = 300;
+
         double totalFactura = 19359.678;
         long poblacionMundial = 677523574;
         long miliseg = 1293328000;
-        
-        
-        
-        
-    }
-    
-}
+
+        char[] sexo = new char[1];
+        sexo[0] = 'V';
+        sexo[1] = 'M';
+
+        System.out.println("----- EJERCICIO DE VARIABLES Y TIPOS DE DATOS -----");
+        System.out.println("El valor de la variable estaCasado es " + estaCasado);
+        System.out.println("El valor de la variable MAXIMO es " + MAXIMO);
+        System.out.println("El valor de la variable diasem es " + diaSemana);
+        System.out.println("El valor de la variable diaanual es " + diaAnio);
+        System.out.println("El valor de la variable miliseg es " + miliseg);
+        System.out.println("El valor de la variable totalfactura es " + totalFactura);
+        System.out.println("El valor de la variable población es " + poblacionMundial);
+        System.out.println("El valor de la variable sexo es " + sexo[1]);
+
+    }//Fin del mmetodo MAIN
+
+}//Fin de la clase Tarea02_Ejercicio3
